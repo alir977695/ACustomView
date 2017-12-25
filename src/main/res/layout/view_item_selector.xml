@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="100"
+        android:background="@drawable/selector_btn_white_minus"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="100"
+        android:background="@drawable/selector_white_btn"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="100"
+        android:background="@drawable/selector_white_btn"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="100"
+        android:background="@drawable/selector_white_btn"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="100"
+        android:background="@drawable/selector_white_btn"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="100"
+        android:background="@drawable/selector_white_btn"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="100"
+        android:background="@drawable/selector_btn_white_plus"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

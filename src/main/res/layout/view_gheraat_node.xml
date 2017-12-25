@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/layout_background">
+
+    <CheckBox
+        android:id="@+id/chBox_isRead"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_view_height"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_single_btn_blue"
+        android:gravity="center"
+        android:text="خواندم"
+        android:textColor="@drawable/text_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ignore"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/custom_view_height"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_single_btn_red"
+            android:text="انصراف"
+            android:textColor="@drawable/text_red" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/custom_view_height"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_single_btn_green"
+            android:text="ذخیره"
+            android:textColor="@drawable/text_green" />
+    </LinearLayout>
+
+</LinearLayout>

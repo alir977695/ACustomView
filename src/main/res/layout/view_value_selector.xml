@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:maxHeight="50dp">
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:background="@drawable/selector_btn_minus"
+            android:text="-"
+            android:textSize="20sp" />
+
+        <com.example.ali.khatm.View.AutoFiteView.AutofitTextView
+            android:id="@+id/txtNumber"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_txt"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minWidth="50dp"
+            android:singleLine="true"
+            android:text="1"
+            autofit:minTextSize="3sp"
+            android:textSize="15sp" />
+
+
+
+
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:background="@drawable/selector_btn_plus"
+            android:text="+" />
+    </LinearLayout>
+</LinearLayout>
